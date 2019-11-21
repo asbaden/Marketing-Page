@@ -1,3 +1,9 @@
+.footermix {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: 0.8rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -236,7 +242,7 @@ header li {
 }
 @media (max-width: 500px) {
   #How {
-    font-size: 1rem;
+    font-size: rem;
   }
 }
 #boxes .container {
