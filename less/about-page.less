@@ -1,0 +1,51 @@
+
+.TheSquad{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#theboxSquad{
+    display:flex;
+    justify-content: space-between;
+    @media @mobile {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+   
+    
+}
+
+#theboxSquad .box{
+    background-color: @box_bg;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:21%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 0.7rem;
+    
+     @media @mobile {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px black;
+        font-size: 0.7rem;
+        margin:10px;
+           
+        }
+    
+}
+
+#theboxSquad .box img{
+    width: 150px;
+    border-radius: 20px;
+    
+}

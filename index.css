@@ -1,0 +1,327 @@
+.footermix {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: 0.8rem;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: serif;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0 2vh 0 2vh;
+  background-color: #9DD0F3;
+}
+header {
+  background: #41B6E6;
+  color: white;
+  height: 10vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+@media (max-width: 500px) {
+  header {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+}
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+}
+@media (max-width: 500px) {
+  header a {
+    font-size: 0.3rem;
+  }
+}
+header img {
+  width: 100px;
+  padding-bottom: 20px;
+}
+header a:hover {
+  color: black;
+}
+header ul {
+  margin: 0;
+}
+header li {
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+@media (max-width: 500px) {
+  header li {
+    display: flex;
+    padding: 15px 0 15px 0;
+    justify-content: center;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: 0.8rem;
+}
+#showcase {
+  min-height: 40vh;
+  background: url('../img/harli-marten-n7a2OJDSZns-unsplash.jpg');
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  #showcase {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#showcase h1 {
+  font-size: 3rem;
+  color: white;
+}
+@media (max-width: 500px) {
+  #showcase h1 {
+    font-size: 1rem;
+  }
+}
+#showcase p {
+  font-size: 1rem;
+  padding-top: 80px;
+}
+#How {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  #How {
+    font-size: rem;
+  }
+}
+#boxes .container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  #boxes .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#boxes .container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: #C0E0F7;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  #boxes .container .box {
+    width: auto;
+    padding-bottom: 50px;
+    margin: 20px;
+  }
+}
+#boxes .container .box h3 {
+  border-bottom: 2px black solid;
+}
+#boxes .box img {
+  width: 100px;
+}
+.TheSquad {
+  display: flex;
+  justify-content: center;
+}
+#theboxSquad {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  #theboxSquad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#theboxSquad .box {
+  background-color: #C0E0F7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 21%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 0.7rem;
+}
+@media (max-width: 500px) {
+  #theboxSquad .box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 0.7rem;
+    margin: 10px;
+  }
+}
+#theboxSquad .box img {
+  width: 150px;
+  border-radius: 20px;
+}
