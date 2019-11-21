@@ -154,7 +154,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  align-content: center;
 }
 @media (max-width: 500px) {
   header {
@@ -179,8 +179,7 @@ header a {
   }
 }
 header img {
-  width: 100px;
-  padding-bottom: 20px;
+  width: 70px;
 }
 header a:hover {
   color: black;
